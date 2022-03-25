@@ -211,6 +211,8 @@ if __name__ == '__main__':
 
     # 儲存檔案
     now = datetime.now().strftime('%Y%m%d%H%M%S')
+    if not os.path.isdir(modelOutputPath):
+        os.mkdir(modelOutputPath)
     with open(f'{modelOutputPath}/{now}.pickle', 'wb') as f:
         pickle.dump((docData, docTokenizeList, docEntityDf, dashNerContentList), f)
     print(f'檔案已儲存: {modelOutputPath}/{now}.pickle')
