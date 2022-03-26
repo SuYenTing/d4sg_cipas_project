@@ -362,7 +362,7 @@ def displayTapNodeData(tapNodeData, tapEdgeData, n_clicks, node_dictionary, edge
                 padDfTitle = html.Center(html.H3(f'{nodeName} 相關文章'))
 
         elif userTapType == "cytoscape.tapEdgeData":
-            if tapNodeData:
+            if tapEdgeData:
                 # 將儲存資料轉為資料表
                 edgeDf = pd.DataFrame(edge_dictionary)
                 # 篩選使用者選取的關係
