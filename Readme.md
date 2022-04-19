@@ -2,7 +2,7 @@
 
 Fellows： Aaron Yang, Helene Chien, 李俊穎, 蘇彥庭
 
-Mentor：Ning Chen
+Mentor：Ning Chen, Leo Chiang
 
 Project Partner：不當黨產處理委員會
 
