@@ -20,7 +20,9 @@ Project Partner：不當黨產處理委員會
 
 ## 二、專案程式安裝執行說明
 
-此專案主要運行在Windows作業系統。
+此專案主要運行在Windows作業系統，圖文安裝說明請參考: [[installation_guide_for_windows.pdf]](https://github.com/SuYenTing/d4sg_cipas_project/blob/main/installation_guide_for_windows.pdf)。
+
+以下為簡要文字說明:
 
 Step1. 請先在電腦上安裝Python程式，建議安裝Python3.7以上版本。[[Python Windows版本下載位置](https://www.python.org/downloads/windows/)]
 
